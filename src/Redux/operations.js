@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
 import { toastifyOptions } from 'utils/toastifyOptions';
 
-import * as api from '../utils/api-contacts';
+import * as api from '../API/contactsServises';
 
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
